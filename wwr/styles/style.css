@@ -62,10 +62,11 @@ header{
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    color:var(--nav-hover-background-color)
 }
 .book:hover, .join:hover{
-    background-color: grey;
-    color:red
+    background-color: red;
+    color:var(--nav-hover-background-color)
 }
 #background{
     background-color: var(--accent1-color);
@@ -151,4 +152,9 @@ main section img{
 }
 .mountains{
     margin: 100px 0;
+    width: 35%;
+}
+.msg{
+    font-size: .8em;
+    background-color: var(--nav-background-color);
 }
